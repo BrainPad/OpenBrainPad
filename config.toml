@@ -8,6 +8,7 @@ hasCJKLanguage = true
 languageCode = "ja"
 theme = 'simpleit-hugo-theme'
 title = "OpenBrainPad"
+publishDir = "docs"
 
 # Build robots.txt file
 enableRobotsTXT = true
