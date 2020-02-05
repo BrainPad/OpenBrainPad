@@ -1,0 +1,52 @@
+# Basic Configs
+DefaultContentLanguage = "ja"
+baseURL = "https://BrainPad.github.io/OpenBrainPad/"
+canonifyURLs = true
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
+languageCode = "ja"
+theme = 'simpleit-hugo-theme'
+title = "OpenBrainPad"
+publishDir = "docs"
+
+# Build robots.txt file
+enableRobotsTXT = true
+enableGitInfo = true #makes .Lastmod (on Page) to be fetched from Git
+
+# syntax highlighting
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# disable kinds
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+
+[languages]
+  [languages.ja]
+    contentDir = "content/ja"
+    languageName = "日本語"
+    weight = 10
+
+# Theme variables
+[params]
+  # Description/subtitle for homepage (can be Markdown)
+  # description = "OpenBrainPad"
+
+  # Render Share buttons static or with javascript
+  shareButtonsType = "static" #<static|javascript>
+
+  # Format dates with Go's time formatting
+  date_format = "2006-01-02"
+
+  # Your copyright notice - appears in site footer.
+  # To display a copyright symbol, type `&copy;`.
+  copyright = "<small>&copy; 2020</small>"
+
+  # site handler
+  twitter = "open_brainpad"
+
+  [params.author]
+  country = "Japan"
+  twitter = 'open_brainpad'
+  website = 'https://twitter.com/open_brainpad'
+  github = "BrainPad"
