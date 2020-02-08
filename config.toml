@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 languageCode = "ja"
 theme = 'simpleit-hugo-theme'
-title = "OpenBrainPad"
+title = "OpenBrainPad Project"
 publishDir = "docs"
 
 # Build robots.txt file

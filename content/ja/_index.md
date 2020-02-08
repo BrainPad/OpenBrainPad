@@ -1,20 +1,21 @@
 ---
-title: OpenBrainPad
+title: OpenBrainPad Project
 subtitle: ""
 description: ""
 ---
 
-# OpenBrainPad（[#OpenBP](https://twitter.com/search?q=%23OpenBP&src=hashtag_click)）の活動一覧
+# OpenBrainPadの活動一覧
 
 OpenBrainPadプロジェクトは、社内にある技術資料の公開やデータサイエンティストメンバーの意見の発信などを通じて、業界に対してブレインパッド社をよりオープンにしていくプロジェクトです。
 
 このプロジェクトを通じての公開資料はTwitterアカウント[@Open_BrainPad](https://twitter.com/Open_BrainPad)からも発信していますのでぜひフォローお願いします！  
 ハッシュタグ [#OpenBP](https://twitter.com/search?q=%23OpenBP&src=hashtag_click) も併せて御覧ください。
 
+---
 
-## 資料公開
+## 📃資料公開
 
-ブレインパッド公式の[Speaker Deck](https://speakerdeck.com/brainpadpr)にて、新卒研修資料や社内にある有益な技術資料を公開しています。
+ブレインパッド社公式アカウントの[Speaker Deck](https://speakerdeck.com/brainpadpr)にて、新卒研修資料や社内にある有益な技術資料を公開しています。
 
 - [分析の基礎（モデリング）](https://speakerdeck.com/brainpadpr/basics-of-analysis-modeling)
 - [データハンドリングのためのSQL](https://speakerdeck.com/brainpadpr/sql-for-data-handling)
@@ -25,11 +26,10 @@ OpenBrainPadプロジェクトは、社内にある技術資料の公開やデ�
 - [外部コンペから学ぶ実務に活かせる機械学習 Carvana_Image_Masking_Challenge](https://qiita.com/bp_as/items/953587a2c6ae7e5b9893)
 
 
-
-## Podcast
+## 🎙Podcast
 
 AIやデータ分析についてデータサイエンティストメンバーが自由に話している「[白金鉱業.FM](https://shirokane-kougyou.fm/)」というPodcastを配信しています。  
-BP組織について話しているエピソードもあります。
+BP組織について話しているエピソードもあります。[Apple Podcast](https://podcasts.apple.com/jp/podcast/%E7%99%BD%E9%87%91%E9%89%B1%E6%A5%AD-fm/id1479033656), [Spotify](https://open.spotify.com/show/4iVxMiLaAmz6e7Mv0yTRCk)で配信しています。
 
 - [Chief Data Technology Officer（CDTO）って何をする役職ですか？](https://shirokane-kougyou.fm/episode/6)
 - [特別企画『ブレインパッドDS質問会』（前編）](https://shirokane-kougyou.fm/episode/7) / [（後編）](https://shirokane-kougyou.fm/episode/8)
@@ -38,15 +38,14 @@ BP組織について話しているエピソードもあります。
 - [受託分析業における常駐分析 Case.2](https://shirokane-kougyou.fm/episode/11)
 
 
-## ミートアップイベント
+## 👨‍💻ミートアップイベント
 
 社内外のデータ関係者を対象にした勉強会＆交流会イベント[白金鉱業 Meetup ](https://brainpad-meetup.connpass.com/)を不定期開催しています。  
 毎回3名x20分の登壇ゲスト（1名はブレインパッド関係者）に発表していただくスタイルで実施しています。  
 公開済みの発表資料は[こちら](https://brainpad-meetup.connpass.com/presentation/)。
 
 
-
-## メンバーブログ
+## ✍メンバーブログ
 
 OpenBPでは個人アカウントからの発信も積極的に推奨しています。  
 社内イベントやワークスタイルについてメンバーが執筆したブログもあります。
@@ -56,8 +55,3 @@ OpenBPでは個人アカウントからの発信も積極的に推奨してい�
 - [自社の新卒研修でコンペみたいな演習があったのでエキサイティングにした - Hatena Blog](https://marupippi.hatenablog.jp/entry/make_training_exciting) by [@marupippi22](https://twitter.com/marupippi22)
 - [データサイエンティスト見習い 新卒1年目が終わる - HatenaBlog](https://pira-nino.hatenablog.com/entry/2019/04/28/データサイエンティスト見習い_新卒1年目が終わ) by [@nino_pira](https://twitter.com/nino_pira)
 - [株式会社ブレインパッドに転職しました - Hatena Blog](https://moepy-stats.hatenablog.com/entry/2019/04/25/jobchange) by [@moepy_stats](https://twitter.com/moepy_stats)
-
-
-## 採用ページ
-
-採用ページは[こちらのリンク](https://www.brainpad.co.jp/recruit/)からどうぞ！
