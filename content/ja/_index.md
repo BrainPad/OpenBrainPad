@@ -36,6 +36,7 @@ BP組織について話しているエピソードもあります。[Apple Podca
   - [Twitterライブ配信の動画はこちら](https://twitter.com/Open_BrainPad/status/1206875645394874368?s=20)
 - [受託分析業における常駐分析](https://shirokane-kougyou.fm/episode/9)
 - [受託分析業における常駐分析 Case.2](https://shirokane-kougyou.fm/episode/11)
+- [男性9割の職場における女性DSのロールモデルを考える委員会](https://shirokane-kougyou.fm/episode/15)
 
 
 ## 👨‍💻ミートアップイベント
