@@ -1,12 +1,11 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: ""
+description: "2020.7.14 UPDATE"
 ---
 
 # OpenBrainPadの活動一覧
 
-（2020.6.29更新）  
 OpenBrainPadプロジェクトは、社内にある技術資料の公開やデータサイエンティストメンバーの意見の発信などを通じて、業界に対してブレインパッド社をよりオープンにしていくプロジェクトです。
 
 このプロジェクトを通じての公開資料はTwitterアカウント[@Open_BrainPad](https://twitter.com/Open_BrainPad)からも発信していますのでぜひフォローお願いします！  
@@ -21,6 +20,7 @@ OpenBrainPadプロジェクトは、社内にある技術資料の公開やデ�
 - [分析の基礎（モデリング）](https://speakerdeck.com/brainpadpr/basics-of-analysis-modeling)
 - [データハンドリングのためのSQL](https://speakerdeck.com/brainpadpr/sql-for-data-handling)
 - [「因果関係」をとらえるために](https://speakerdeck.com/brainpadpr/to-grasp-causal-relationship)
+- [Gitハンズオン研修](https://speakerdeck.com/brainpadpr/git-hands-on)
 
 社内のKaggle部による勉強会記事も[Qiita](https://qiita.com/bp_as)にて公開しています。
 
@@ -46,7 +46,7 @@ AIやデータ分析についてデータサイエンティストメンバーが
 - [データサイエンティスト新卒課題図書6冊を紹介します！](https://shirokane-kougyou.fm/episode/33)
 
 
-## 👨‍💻ミートアップイベント
+## 🍺ミートアップイベント
 
 社内外のデータ関係者を対象にした勉強会＆交流会イベント[白金鉱業 Meetup](https://brainpad-meetup.connpass.com/)を不定期開催しています。  
 毎回3名x20分の登壇ゲスト（1名はブレインパッド関係者）に発表していただくスタイルで実施しています。  
