@@ -24,8 +24,6 @@ OpenBrainPadプロジェクトは、社内にある技術資料の公開やデ�
 
 社内のKaggle部による勉強会記事も[Qiita](https://qiita.com/bp_as)にて公開しています。
 
-- [外部コンペから学ぶ実務に活かせる機械学習 Carvana_Image_Masking_Challenge](https://qiita.com/bp_as/items/953587a2c6ae7e5b9893)
-
 
 ## 🎙Podcast
 
@@ -53,7 +51,7 @@ AIやデータ分析についてデータサイエンティストメンバーが
 公開済みの発表資料は[こちら](https://brainpad-meetup.connpass.com/presentation/)。
 
 
-## ✍メンバーブログ
+## ✍メンバーブログ/登壇
 
 OpenBPでは個人アカウントからの発信も積極的に推奨しています。  
 社内イベントやワークスタイルについてメンバーが執筆したブログもあります。
@@ -66,3 +64,4 @@ OpenBPでは個人アカウントからの発信も積極的に推奨してい�
 - [下町データサイエンティスト 新卒2年目が終わる](https://pira-nino.hatenablog.com/entry/end_2nd_fresh_year_shitamachi_ds) by [@nino_pira](https://twitter.com/nino_pira)
 - [入社1年目の話（受託分析編） - note](https://note.com/uskst/n/n4e0b84af3257) by [@usksatoo](https://twitter.com/usksatoo)
 - [データサイエンス企業の新卒って、どんな人？ - note](https://note.com/abtm81/n/n3eb5d251d5f1)
+- [機械学習を「社会実装」するということ](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning) by [@moepy_stats](https://twitter.com/moepy_stats)
