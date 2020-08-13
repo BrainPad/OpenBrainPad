@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2020.7.14 UPDATE"
+description: "2020.8.13 UPDATE"
 ---
 
 # OpenBrainPadの活動一覧
@@ -65,3 +65,4 @@ OpenBPでは個人アカウントからの発信も積極的に推奨してい�
 - [入社1年目の話（受託分析編） - note](https://note.com/uskst/n/n4e0b84af3257) by [@usksatoo](https://twitter.com/usksatoo)
 - [データサイエンス企業の新卒って、どんな人？ - note](https://note.com/abtm81/n/n3eb5d251d5f1)
 - [機械学習を「社会実装」するということ - Speaker Deck](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning) by [@moepy_stats](https://twitter.com/moepy_stats)
+- [新時代の新卒データサイエンティスト研修の全貌 - Hatena Blog](https://www.medi-08-data-06.work/entry/newcomer_trainig) by [@medi_data0826](https://twitter.com/medi_data0826)
