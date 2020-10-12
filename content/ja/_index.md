@@ -1,12 +1,12 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2020.8.13 UPDATE"
+description: "2020.10.12 UPDATE"
 ---
 
 # OpenBrainPadの活動一覧
 
-OpenBrainPadプロジェクトは、社内にある技術資料の公開やデータサイエンティストメンバーの意見の発信などを通じて、業界に対してブレインパッド社をよりオープンにしていくプロジェクトです。
+OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://www.brainpad.co.jp/)のデータサイエンティスト有志メンバーが社内にある技術資料の公開やSNS発信などを通じて、業界に対してブレインパッド社をよりオープンにしていくプロジェクトです。
 
 このプロジェクトを通じての公開資料はTwitterアカウント[@Open_BrainPad](https://twitter.com/Open_BrainPad)からも発信していますのでぜひフォローお願いします！  
 ハッシュタグ [#OpenBP](https://twitter.com/search?q=%23OpenBP&src=hashtag_click) も併せて御覧ください。
@@ -42,12 +42,13 @@ AIやデータ分析についてデータサイエンティストメンバーが
 - [新卒n年目が終わる](https://shirokane-kougyou.fm/episode/22)
 - [フルリモート時代の新卒研修運営](https://shirokane-kougyou.fm/episode/30)
 - [データサイエンティスト新卒課題図書6冊を紹介します！](https://shirokane-kougyou.fm/episode/33)
+- [草野社長に経営やデータサイエンス業界についていろいろ質問する回](https://shirokane-kougyou.fm/episode/40)
 
 
 ## 🍺ミートアップイベント
 
 社内外のデータ関係者を対象にした勉強会＆交流会イベント[白金鉱業 Meetup](https://brainpad-meetup.connpass.com/)を不定期開催しています。  
-毎回3名x20分の登壇ゲスト（1名はブレインパッド関係者）に発表していただくスタイルで実施しています。  
+毎回3名x20分の登壇ゲスト（1名は必ずブレインパッド関係者）に発表していただくスタイルで実施しています。  
 公開済みの発表資料は[こちら](https://brainpad-meetup.connpass.com/presentation/)。
 
 
