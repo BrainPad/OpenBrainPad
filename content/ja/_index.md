@@ -1,8 +1,10 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2020.10.12 UPDATE"
+description: "2020.12.3 UPDATE"
 ---
+
+![img](./logo.jpg)
 
 # OpenBrainPadの活動一覧
 
@@ -21,8 +23,6 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 - [データハンドリングのためのSQL](https://speakerdeck.com/brainpadpr/sql-for-data-handling)
 - [「因果関係」をとらえるために](https://speakerdeck.com/brainpadpr/to-grasp-causal-relationship)
 - [Gitハンズオン研修](https://speakerdeck.com/brainpadpr/git-hands-on)
-
-社内のKaggle部による勉強会記事も[Qiita](https://qiita.com/bp_as)にて公開しています。
 
 
 ## 🎙Podcast
