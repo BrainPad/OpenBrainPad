@@ -3,9 +3,6 @@ title: OpenBrainPad Project
 subtitle: ""
 description: "2020.12.3 UPDATE"
 ---
-
-![img](./logo.jpg)
-
 # OpenBrainPadの活動一覧
 
 OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://www.brainpad.co.jp/)のデータサイエンティスト有志メンバーが社内にある技術資料の公開やSNS発信などを通じて、業界に対してブレインパッド社をよりオープンにしていくプロジェクトです。
