@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2020.12.3 UPDATE"
+description: "2021.3.2 UPDATE"
 ---
 # OpenBrainPadの活動一覧
 
@@ -40,7 +40,9 @@ AIやデータ分析についてデータサイエンティストメンバーが
 - [フルリモート時代の新卒研修運営](https://shirokane-kougyou.fm/episode/30)
 - [データサイエンティスト新卒課題図書6冊を紹介します！](https://shirokane-kougyou.fm/episode/33)
 - [草野社長に経営やデータサイエンス業界についていろいろ質問する回](https://shirokane-kougyou.fm/episode/40)
-
+- [阪大梅谷先生・CDTO太田さんと数理最適化トーク！](https://shirokane-kougyou.fm/episode/43)
+- [分析PM Seven Questions WITH Makoto Hyodo](https://shirokane-kougyou.fm/episode/47)
+- [分析PM Seven Questions WITH Haruyuki Tsuji](https://shirokane-kougyou.fm/episode/48)
 
 ## 🍺ミートアップイベント
 
