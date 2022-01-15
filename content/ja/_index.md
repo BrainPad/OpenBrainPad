@@ -1,8 +1,10 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2021.3.2 UPDATE"
+description: "2022.1.14 UPDATE"
 ---
+![main_logo](./logo.png)
+
 # OpenBrainPadの活動一覧
 
 OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://www.brainpad.co.jp/)のデータサイエンティスト有志メンバーが社内にある技術資料の公開やSNS発信などを通じて、業界に対してブレインパッド社をよりオープンにしていくプロジェクトです。
@@ -43,6 +45,8 @@ AIやデータ分析についてデータサイエンティストメンバーが
 - [阪大梅谷先生・CDTO太田さんと数理最適化トーク！](https://shirokane-kougyou.fm/episode/43)
 - [分析PM Seven Questions WITH Makoto Hyodo](https://shirokane-kougyou.fm/episode/47)
 - [分析PM Seven Questions WITH Haruyuki Tsuji](https://shirokane-kougyou.fm/episode/48)
+- [リモート時代でも勉強会が盛んな組織を作る「b2b」の紹介](https://shirokane-kougyou.fm/episode/51)
+
 
 ## 🍺ミートアップイベント
 
@@ -66,3 +70,4 @@ OpenBPでは個人アカウントからの発信も積極的に推奨してい�
 - [データサイエンス企業の新卒って、どんな人？ - note](https://note.com/abtm81/n/n3eb5d251d5f1)
 - [機械学習を「社会実装」するということ - Speaker Deck](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning) by [@moepy_stats](https://twitter.com/moepy_stats)
 - [新時代の新卒データサイエンティスト研修の全貌 - Hatena Blog](https://www.medi-08-data-06.work/entry/newcomer_trainig) by [@medi_data0826](https://twitter.com/medi_data0826)
+- [機械学習を「社会実装」するということ 2022年版- Speaker Deck](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning-2022) by [@moepy_stats](https://twitter.com/moepy_stats)

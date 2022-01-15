@@ -5,10 +5,6 @@
     <link>https://BrainPad.github.io/OpenBrainPad/</link>
     <description>Recent content on OpenBrainPad Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    
-	<atom:link href="https://BrainPad.github.io/OpenBrainPad/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ja</language><atom:link href="https://BrainPad.github.io/OpenBrainPad/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
