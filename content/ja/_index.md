@@ -3,6 +3,7 @@ title: OpenBrainPad Project
 subtitle: ""
 description: "2022.9.11 UPDATE"
 ---
+![main_logo](./logo400.png)
 
 # OpenBrainPadの活動一覧
 
