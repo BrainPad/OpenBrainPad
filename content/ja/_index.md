@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2022.1.14 UPDATE"
+description: "2022.9.11 UPDATE"
 ---
 ![main_logo](./logo.png)
 
@@ -26,26 +26,28 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 
 ## 🎙Podcast
 
-AIやデータ分析についてデータサイエンティストメンバーが自由に話している「[白金鉱業.FM](https://shirokane-kougyou.fm/)」というPodcastを配信しています。  
+AIやデータ分析についてデータサイエンティストメンバーが自由に話している「[白金鉱業.FM](https://shirokane-kougyou.github.io)」というPodcastを配信しています。  
 [Apple Podcast](https://podcasts.apple.com/jp/podcast/%E7%99%BD%E9%87%91%E9%89%B1%E6%A5%AD-fm/id1479033656), [Spotify](https://open.spotify.com/show/4iVxMiLaAmz6e7Mv0yTRCk)からsubscribeできます。  
 最新エピソードはTwitterアカウント[@shirokane_fm](https://twitter.com/shirokane_fm)から通知していますのでぜひフォローしてみてください。  
 過去配信分をざっくりと知りたい方は[こちらのブログ](https://note.com/ysdyt/n/n516d8e066618)を御覧ください。  
 さまざまなトークを公開していますが、特にBP組織について話しているエピソードは以下です。
 
-- [Chief Data Technology Officer（CDTO）って何をする役職ですか？](https://shirokane-kougyou.fm/episode/6)
-- [特別企画『ブレインパッドDS質問会』（前編）](https://shirokane-kougyou.fm/episode/7) / [（後編）](https://shirokane-kougyou.fm/episode/8)
+- [Chief Data Technology Officer（CDTO）って何をする役職ですか？](https://shirokane-kougyou.github.io/episode/6)
+- [特別企画『ブレインパッドDS質問会』（前編）](https://shirokane-kougyou.github.io/episode/7) / [（後編）](https://shirokane-kougyou.github.io/episode/8)
   - [Twitterライブ配信の動画はこちら](https://twitter.com/Open_BrainPad/status/1206875645394874368?s=20)
-- [受託分析業における常駐分析](https://shirokane-kougyou.fm/episode/9)
-- [受託分析業における常駐分析 Case.2](https://shirokane-kougyou.fm/episode/11)
-- [男性9割の職場における女性DSのロールモデルを考える委員会](https://shirokane-kougyou.fm/episode/15)
-- [新卒n年目が終わる](https://shirokane-kougyou.fm/episode/22)
-- [フルリモート時代の新卒研修運営](https://shirokane-kougyou.fm/episode/30)
-- [データサイエンティスト新卒課題図書6冊を紹介します！](https://shirokane-kougyou.fm/episode/33)
-- [草野社長に経営やデータサイエンス業界についていろいろ質問する回](https://shirokane-kougyou.fm/episode/40)
-- [阪大梅谷先生・CDTO太田さんと数理最適化トーク！](https://shirokane-kougyou.fm/episode/43)
-- [分析PM Seven Questions WITH Makoto Hyodo](https://shirokane-kougyou.fm/episode/47)
-- [分析PM Seven Questions WITH Haruyuki Tsuji](https://shirokane-kougyou.fm/episode/48)
-- [リモート時代でも勉強会が盛んな組織を作る「b2b」の紹介](https://shirokane-kougyou.fm/episode/51)
+- [受託分析業における常駐分析](https://shirokane-kougyou.github.io/episode/9)
+- [受託分析業における常駐分析 Case.2](https://shirokane-kougyou.github.io/episode/11)
+- [男性9割の職場における女性DSのロールモデルを考える委員会](https://shirokane-kougyou.github.io/episode/15)
+- [新卒n年目が終わる](https://shirokane-kougyou.github.io/episode/22)
+- [フルリモート時代の新卒研修運営](https://shirokane-kougyou.github.io/episode/30)
+- [データサイエンティスト新卒課題図書6冊を紹介します！](https://shirokane-kougyou.github.io/episode/33)
+- [草野社長に経営やデータサイエンス業界についていろいろ質問する回](https://shirokane-kougyou.github.io/episode/40)
+- [阪大梅谷先生・CDTO太田さんと数理最適化トーク！](https://shirokane-kougyou.github.io/episode/43)
+- [分析PM Seven Questions WITH Makoto Hyodo](https://shirokane-kougyou.github.io/episode/47)
+- [分析PM Seven Questions WITH Haruyuki Tsuji](https://shirokane-kougyou.github.io/episode/48)
+- [リモート時代でも勉強会が盛んな組織を作る「b2b」の紹介](https://shirokane-kougyou.github.io/episode/51)
+- [分析PM Three Essentials WITH Masahisa Taura](https://shirokane-kougyou.github.io/episode/54)
+- [まだまだ祭りは終わらんよ！女性DS質問会 延長戦！](https://shirokane-kougyou.github.io/episode/56)
 
 
 ## 🍺ミートアップイベント
@@ -71,3 +73,4 @@ OpenBPでは個人アカウントからの発信も積極的に推奨してい�
 - [機械学習を「社会実装」するということ - Speaker Deck](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning) by [@moepy_stats](https://twitter.com/moepy_stats)
 - [新時代の新卒データサイエンティスト研修の全貌 - Hatena Blog](https://www.medi-08-data-06.work/entry/newcomer_trainig) by [@medi_data0826](https://twitter.com/medi_data0826)
 - [機械学習を「社会実装」するということ 2022年版- Speaker Deck](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning-2022) by [@moepy_stats](https://twitter.com/moepy_stats)
+- [Twitterで集まった質問を社内の新卒女性データサイエンティスト陣に聞いてみた - note](https://note.com/hrk_bb/n/nbd1161268d05) by [@hanaco117](https://twitter.com/hanaco117)
