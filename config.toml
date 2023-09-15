@@ -3,7 +3,6 @@ DefaultContentLanguage = "ja"
 baseURL = "https://BrainPad.github.io/OpenBrainPad/"
 canonifyURLs = true
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 languageCode = "ja"
 theme = 'simpleit-hugo-theme'
@@ -19,13 +18,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
 # disable kinds
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
-
-[languages]
-  [languages.ja]
-    contentDir = "content/ja"
-    languageName = "日本語"
-    weight = 10
+disableKinds = ["taxonomy", "term", "sitemap"]
 
 # Theme variables
 [params]
@@ -40,7 +33,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
 
   # Your copyright notice - appears in site footer.
   # To display a copyright symbol, type `&copy;`.
-  copyright = "<small>&copy; OpenBrainPad 2021</small>"
+  copyright = "<small>&copy; OpenBrainPad 2023</small>"
 
   # site handler
   twitter = "open_brainpad"
