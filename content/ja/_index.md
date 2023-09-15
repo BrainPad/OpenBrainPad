@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2022.9.11 UPDATE"
+description: "2023.9.15 UPDATE"
 ---
 ![main_logo](./logo400.png)
 
@@ -22,6 +22,7 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 - [データハンドリングのためのSQL](https://speakerdeck.com/brainpadpr/sql-for-data-handling)
 - [「因果関係」をとらえるために](https://speakerdeck.com/brainpadpr/to-grasp-causal-relationship)
 - [Gitハンズオン研修](https://speakerdeck.com/brainpadpr/git-hands-on)
+- [【新卒研修資料】基礎統計学 / Basic of statistics](https://speakerdeck.com/brainpadpr/basic-of-statistics)
 
 
 ## 🎙Podcast
