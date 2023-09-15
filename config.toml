@@ -3,7 +3,6 @@ DefaultContentLanguage = "ja"
 baseURL = "https://BrainPad.github.io/OpenBrainPad/"
 canonifyURLs = true
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 languageCode = "ja"
 theme = 'simpleit-hugo-theme'
@@ -20,12 +19,6 @@ pygmentsCodefencesGuessSyntax = true
 
 # disable kinds
 disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
-
-[languages]
-  [languages.ja]
-    contentDir = "content/ja"
-    languageName = "日本語"
-    weight = 10
 
 # Theme variables
 [params]
