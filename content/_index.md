@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2023.9.15 UPDATE"
+description: "2023.12.26 UPDATE"
 ---
 ![main_logo](./logo400.png)
 
@@ -22,7 +22,7 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 - [データハンドリングのためのSQL](https://speakerdeck.com/brainpadpr/sql-for-data-handling)
 - [「因果関係」をとらえるために](https://speakerdeck.com/brainpadpr/to-grasp-causal-relationship)
 - [Gitハンズオン研修](https://speakerdeck.com/brainpadpr/git-hands-on)
-- [【新卒研修資料】基礎統計学 / Basic of statistics](https://speakerdeck.com/brainpadpr/basic-of-statistics)
+- [基礎統計学 / Basic of statistics](https://speakerdeck.com/brainpadpr/basic-of-statistics)
 
 
 ## 🎙Podcast
@@ -30,7 +30,7 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 AIやデータ分析についてデータサイエンティストメンバーが自由に話している「[白金鉱業.FM](https://shirokane-kougyou.github.io)」というPodcastを配信しています。  
 [Apple Podcast](https://podcasts.apple.com/jp/podcast/%E7%99%BD%E9%87%91%E9%89%B1%E6%A5%AD-fm/id1479033656), [Spotify](https://open.spotify.com/show/4iVxMiLaAmz6e7Mv0yTRCk)からsubscribeできます。  
 最新エピソードはTwitterアカウント[@shirokane_fm](https://twitter.com/shirokane_fm)から通知していますのでぜひフォローしてみてください。  
-過去配信分をざっくりと知りたい方は[こちらのブログ](https://note.com/ysdyt/n/n516d8e066618)を御覧ください。  
+過去配信分をざっくりと知りたい方は[ワードクラウドで振り返る白金鉱業.FM](https://note.com/ysdyt/n/n516d8e066618)、および[ワードクラウドで振り返る白金鉱業.FM（2023年）](https://note.com/nash_efp/n/n903679641862)を御覧ください。  
 さまざまなトークを公開していますが、特にBP組織について話しているエピソードは以下です。
 
 - [Chief Data Technology Officer（CDTO）って何をする役職ですか？](https://shirokane-kougyou.github.io/episode/6)
@@ -49,7 +49,8 @@ AIやデータ分析についてデータサイエンティストメンバーが
 - [リモート時代でも勉強会が盛んな組織を作る「b2b」の紹介](https://shirokane-kougyou.github.io/episode/51)
 - [分析PM Three Essentials WITH Masahisa Taura](https://shirokane-kougyou.github.io/episode/54)
 - [まだまだ祭りは終わらんよ！女性DS質問会 延長戦！](https://shirokane-kougyou.github.io/episode/56)
-
+- [非・卒業講演　〜なぜ我々はブレインパッドを卒業しないのか〜](https://shirokane-kougyou.github.io/episode/69)
+- [勉強会が盛んな組織を作る「b2b」の紹介 その2 ~ FY2023の勉強会を振り返る ~](https://shirokane-kougyou.github.io/episode/74)
 
 ## 🍺ミートアップイベント
 
