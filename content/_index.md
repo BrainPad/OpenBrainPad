@@ -30,7 +30,8 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 AIやデータ分析についてデータサイエンティストメンバーが自由に話している「[白金鉱業.FM](https://shirokane-kougyou.github.io)」というPodcastを配信しています。  
 [Apple Podcast](https://podcasts.apple.com/jp/podcast/%E7%99%BD%E9%87%91%E9%89%B1%E6%A5%AD-fm/id1479033656), [Spotify](https://open.spotify.com/show/4iVxMiLaAmz6e7Mv0yTRCk)からsubscribeできます。  
 最新エピソードはTwitterアカウント[@shirokane_fm](https://twitter.com/shirokane_fm)から通知していますのでぜひフォローしてみてください。  
-過去配信分をざっくりと知りたい方は[ワードクラウドで振り返る白金鉱業.FM](https://note.com/ysdyt/n/n516d8e066618)、および[ワードクラウドで振り返る白金鉱業.FM（2023年）](https://note.com/nash_efp/n/n903679641862)を御覧ください。  
+
+過去配信分をざっくりと知りたい方は **[ワードクラウドで振り返る白金鉱業.FM 2020年版](https://note.com/ysdyt/n/n516d8e066618)**、**[2023年版](https://note.com/nash_efp/n/n903679641862)** を御覧ください。  
 さまざまなトークを公開していますが、特にBP組織について話しているエピソードは以下です。
 
 - [Chief Data Technology Officer（CDTO）って何をする役職ですか？](https://shirokane-kougyou.github.io/episode/6)
