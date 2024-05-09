@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2024.3.2 UPDATE"
+description: "2024.5.9 UPDATE"
 ---
 ![main_logo](./logo400.png)
 
@@ -23,6 +23,24 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 - [「因果関係」をとらえるために](https://speakerdeck.com/brainpadpr/to-grasp-causal-relationship)
 - [Gitハンズオン研修](https://speakerdeck.com/brainpadpr/git-hands-on)
 - [基礎統計学 / Basic of statistics](https://speakerdeck.com/brainpadpr/basic-of-statistics)
+
+## 📚社内勉強会
+brainpad to brainpad 通称b2b
+- [2023年ブレインパッド社内勉強会一覧](https://docs.google.com/spreadsheets/d/1BD3GPM09yKDg2j1AxscOxIyFAqi9GPhc6P9EuRpghCE/edit#gid=1490930229)
+  - [拡散モデルの原理紹介](https://speakerdeck.com/brainpadpr/kuo-san-moderunoyuan-li-shao-jie)
+  - [位相的データ解析とその応用例](https://speakerdeck.com/brainpadpr/wei-xiang-de-detajie-xi-tosonoying-yong-li)
+  - [ベイズ最適化をゼロから](https://speakerdeck.com/brainpadpr/beizuzui-shi-hua-wozerokara)
+  - [p値ってなんだっけ？](https://qiita.com/suikabar/items/fb26fb73f846cc8c7a7d)
+  - [データに携わるなら学んでおきたい"データマネジメント"について](https://qiita.com/nash_efp/items/27c317dd789187d4fe92)
+  - [介入タイミングが複数あるときの差分の差分法：Staggered DiDの紹介](https://www.brainpad.co.jp/doors/contents/01_tech_2023-08-22-153000/)
+  - [効果検証のための因果推論手法のチートシート](https://qiita.com/_jinta/items/98ac5bbe9ba5bfff1c8a)
+  - [推しのラジオのダッシュボードを作ったら「そのサイト月2万かかるで」と脅されて怯えた話](https://qiita.com/ikumyn1or0/items/48049c8cb24da2ff6fb3)
+  - [GNN（Graph Neural Network）のガイダンス](https://zenn.dev/merosu_radio/articles/192fa106a324f6)
+  - [ざっくりわかるRLHF（人間からのフィードバックを用いた強化学習）](https://www.brainpad.co.jp/doors/contents/01_tech_2023-05-31-160719/)
+  - [colabの無料枠でLLMを用いた議事録生成をできるようにした話](https://qiita.com/Jumtra/items/7ce403b91885b23186bb)
+  - [キラーナンプレRTAチャレンジ](https://zenn.dev/gnj/articles/1781f395a726fe)
+  - [0年目から意識したい、スピーディーに誤解無くコミュニケーションを取る方法](https://speakerdeck.com/brainpadpr/0nian-mu-karayi-shi-sitai-supideiniwu-jie-wu-kukomiyunikesiyonwoqu-rufang-fa)
+  - [データサイエンティストである前にビジネスマンとして必要なこと](https://speakerdeck.com/brainpadpr/detasaienteisutodearuqian-nibizinesumantositebi-yao-nakoto)
 
 
 ## 🎙Podcast
