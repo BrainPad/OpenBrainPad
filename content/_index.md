@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2024.5.9 UPDATE"
+description: "2024.5.10 UPDATE"
 ---
 ![main_logo](./logo400.png)
 
