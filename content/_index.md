@@ -26,6 +26,7 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 
 ## 📚社内勉強会
 brainpad to brainpad 通称b2b
+- [2023年のブレインパッドの社内勉強会を公開！！](https://note.com/nash_efp/n/n8b8a2661beab)
 - [2023年ブレインパッド社内勉強会一覧](https://docs.google.com/spreadsheets/d/1BD3GPM09yKDg2j1AxscOxIyFAqi9GPhc6P9EuRpghCE/edit#gid=1490930229)
   - [拡散モデルの原理紹介](https://speakerdeck.com/brainpadpr/kuo-san-moderunoyuan-li-shao-jie)
   - [位相的データ解析とその応用例](https://speakerdeck.com/brainpadpr/wei-xiang-de-detajie-xi-tosonoying-yong-li)
