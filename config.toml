@@ -33,7 +33,7 @@ disableKinds = ["taxonomy", "term", "sitemap"]
 
   # Your copyright notice - appears in site footer.
   # To display a copyright symbol, type `&copy;`.
-  copyright = "<small>&copy; OpenBrainPad 2023</small>"
+  copyright = "<small>&copy; OpenBrainPad 2024</small>"
 
   # site handler
   twitter = "open_brainpad"
