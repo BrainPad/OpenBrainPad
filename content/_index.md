@@ -96,3 +96,5 @@ OpenBPでは個人アカウントからの発信も積極的に推奨してい�
 - [新時代の新卒データサイエンティスト研修の全貌 - Hatena Blog](https://www.medi-08-data-06.work/entry/newcomer_trainig) by [@medi_data0826](https://twitter.com/medi_data0826)
 - [機械学習を「社会実装」するということ 2022年版- Speaker Deck](https://speakerdeck.com/moepy_stats/social-implementation-of-machine-learning-2022) by [@moepy_stats](https://twitter.com/moepy_stats)
 - [Twitterで集まった質問を社内の新卒女性データサイエンティスト陣に聞いてみた - note](https://note.com/hrk_bb/n/nbd1161268d05) by [@hanaco117](https://twitter.com/hanaco117)
+- [周南公立大学でデータ分析の講義をしてきました - note](https://note.com/nash_efp/n/ne78b7fbcb94a) by [@nash_efp](https://x.com/nash_efp)
+- [青山学院大学でデータ分析の講義をしてきました - note](https://note.com/nash_efp/n/n35c79874f954) by [@nash_efp](https://x.com/nash_efp)
