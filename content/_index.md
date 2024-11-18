@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2024.5.10 UPDATE"
+description: "2024.11.18 UPDATE"
 ---
 ![main_logo](./logo400.png)
 
@@ -75,7 +75,7 @@ AIやデータ分析についてデータサイエンティストメンバーが
 ## 🍺ミートアップイベント
 
 社内外のデータ関係者を対象にした勉強会＆交流会イベント[白金鉱業 Meetup](https://brainpad-meetup.connpass.com/)を不定期開催しています。  
-毎回3名x20分の登壇ゲスト（1名は必ずブレインパッド関係者）に発表していただくスタイルで実施しています。  
+毎回3~4名x20分の登壇ゲスト（1名は必ずブレインパッド関係者）に発表していただくスタイルで実施しています。  
 公開済みの発表資料は[こちら](https://brainpad-meetup.connpass.com/presentation/)。
 
 
