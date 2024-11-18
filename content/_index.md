@@ -71,6 +71,7 @@ AIやデータ分析についてデータサイエンティストメンバーが
 - [まだまだ祭りは終わらんよ！女性DS質問会 延長戦！](https://shirokane-kougyou.github.io/episode/56)
 - [非・卒業講演　〜なぜ我々はブレインパッドを卒業しないのか〜](https://shirokane-kougyou.github.io/episode/69)
 - [勉強会が盛んな組織を作る「b2b」の紹介 その2 ~ FY2023の勉強会を振り返る ~](https://shirokane-kougyou.github.io/episode/74)
+- [受託分析の歯痒さと限界、やっていて良かったこと](https://shirokane-kougyou.github.io/episode/85)
 
 ## 🍺ミートアップイベント
 
