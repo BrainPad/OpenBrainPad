@@ -1,0 +1,2 @@
+baseURL = "/" # ローカル開発用に相対パスを指定
+canonifyURLs = false 

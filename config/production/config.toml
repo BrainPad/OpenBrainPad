@@ -1,0 +1,7 @@
+baseURL = "https://BrainPad.github.io/OpenBrainPad/"
+canonifyURLs = true
+enableRobotsTXT = true
+publishDir = "docs"
+
+# 必要であればコメントを外す
+# disableKinds = ["taxonomy", "term", "sitemap"] 

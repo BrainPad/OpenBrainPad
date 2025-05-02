@@ -1,24 +1,17 @@
 # Basic Configs
 DefaultContentLanguage = "ja"
-baseURL = "https://BrainPad.github.io/OpenBrainPad/"
-canonifyURLs = true
-defaultContentLanguage = "ja"
+# defaultContentLanguage = "ja"  # 重複しているためコメントアウト
 hasCJKLanguage = true
 languageCode = "ja"
 theme = 'simpleit-hugo-theme'
 title = "OpenBrainPad Project"
-publishDir = "docs"
 
-# Build robots.txt file
-enableRobotsTXT = true
+# Build options
 enableGitInfo = true #makes .Lastmod (on Page) to be fetched from Git
 
 # syntax highlighting
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-
-# disable kinds
-disableKinds = ["taxonomy", "term", "sitemap"]
 
 # Theme variables
 [params]
@@ -39,7 +32,7 @@ disableKinds = ["taxonomy", "term", "sitemap"]
   twitter = "open_brainpad"
 
   [params.author]
-  country = "Japan"
-  twitter = 'open_brainpad'
-  website = 'https://twitter.com/open_brainpad'
-  github = "BrainPad"
+    country = "Japan"
+    twitter = 'open_brainpad'
+    website = 'https://twitter.com/open_brainpad'
+    github = "BrainPad" 
