@@ -5,6 +5,8 @@ FROM node:20-bookworm
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     wget \
+    ca-certificates \
+    && update-ca-certificates --fresh \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
