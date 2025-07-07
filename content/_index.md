@@ -1,7 +1,7 @@
 ---
 title: OpenBrainPad Project
 subtitle: ""
-description: "2024.11.18 UPDATE"
+description: "2025.07.07 UPDATE"
 ---
 ![main_logo](./logo400.png)
 
@@ -23,6 +23,7 @@ OpenBrainPadプロジェクトは、[株式会社ブレインパッド](https://
 - [「因果関係」をとらえるために](https://speakerdeck.com/brainpadpr/to-grasp-causal-relationship)
 - [Gitハンズオン研修](https://speakerdeck.com/brainpadpr/git-hands-on)
 - [基礎統計学 / Basic of statistics](https://speakerdeck.com/brainpadpr/basic-of-statistics)
+- [効果検証・因果推論](https://speakerdeck.com/brainpadpr/effect-verification-causal-inference)
 
 ## 📚社内勉強会
 brainpad to brainpad 通称b2b
