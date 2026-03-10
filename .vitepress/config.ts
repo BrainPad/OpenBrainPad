@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/OpenBrainPad/',
+  appearance: false,
   title: 'OpenBrainPad',
   description: 'ブレインパッド社のデータサイエンティスト有志による、技術資料公開・業界向け情報発信プロジェクト',
   lang: 'ja',

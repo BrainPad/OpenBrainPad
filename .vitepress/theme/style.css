@@ -36,42 +36,7 @@
   --vp-c-text-3: #64748b;
   --vp-nav-bg-color: rgba(240, 246, 255, 0.85);
   --vp-nav-border-color: #dbeafe;
-}
-
-/* ===== Dark Mode Variables ===== */
-.dark {
-  --color-bg: #0d1117;
-  --color-surface: #161b22;
-  --color-surface-2: #1c2230;
-  --color-primary: #60a5fa;
-  --color-primary-hover: #93c5fd;
-  --color-primary-light: rgba(96, 165, 250, 0.1);
-  --color-primary-glow: rgba(96, 165, 250, 0.15);
-  --color-accent: #22d3ee;
-  --color-text: #e2e8f0;
-  --color-text-muted: #94a3b8;
-  --color-border: #1e3a5f;
-  --color-border-hover: #3b82f6;
-  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.3);
-  --shadow-card-hover: 0 8px 32px rgba(96, 165, 250, 0.2);
-
-  --vp-c-brand-1: #60a5fa;
-  --vp-c-brand-2: #93c5fd;
-  --vp-c-brand-3: #bfdbfe;
-  --vp-c-brand-soft: rgba(96, 165, 250, 0.15);
-  --vp-c-bg: #0d1117;
-  --vp-c-bg-soft: #161b22;
-  --vp-c-bg-mute: #1c2230;
-  --vp-c-border: #1e3a5f;
-  --vp-c-divider: #1a2f4a;
-  --vp-c-text-1: #e2e8f0;
-  --vp-c-text-2: #cbd5e1;
-  --vp-c-text-3: #94a3b8;
-  --vp-nav-bg-color: rgba(13, 17, 23, 0.85);
-  --vp-nav-border-color: #1e3a5f;
-}
-
-/* ===== Reset / Base ===== */
+}/* ===== Reset / Base ===== */
 * { box-sizing: border-box; }
 
 body {
@@ -179,21 +144,7 @@ body {
   border-color: rgba(37, 99, 235, 0.4) !important;
   color: #1d4ed8 !important;
   transform: translateY(-1px);
-}
-
-.dark .obp-hero-badge {
-  background: rgba(96, 165, 250, 0.12);
-  border-color: rgba(96, 165, 250, 0.25) !important;
-  border-bottom-color: rgba(96, 165, 250, 0.25) !important;
-  color: #93c5fd !important;
-}
-
-.dark .obp-hero-badge:hover {
-  background: rgba(96, 165, 250, 0.2) !important;
-  color: #bfdbfe !important;
-}
-
-.obp-hero h1 {
+}.obp-hero h1 {
   font-size: clamp(2.6rem, 6vw, 4.2rem);
   font-weight: 900;
   letter-spacing: -0.04em;
@@ -425,14 +376,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
-
-.dark .obp-featured-thumb {
-  border-color: rgba(96, 165, 250, 0.2);
-  background: rgba(96, 165, 250, 0.08);
-}
-
-@media (max-width: 600px) {
+}@media (max-width: 600px) {
   .obp-featured { flex-direction: column; padding: 20px; }
   .obp-featured-thumb { width: 100%; height: 160px; }
 }
@@ -499,26 +443,13 @@ body {
   border: 1px solid #dbeafe;
   border-radius: 10px;
   padding: 6px 14px;
-}
-
-.dark .obp-podcast-stat {
-  background: rgba(96, 165, 250, 0.08);
-  border-color: #1e3a5f;
-}
-
-.obp-podcast-stat-num {
+}.obp-podcast-stat-num {
   font-size: 1.3rem;
   font-weight: 900;
   color: #2563eb;
   line-height: 1;
   letter-spacing: -0.03em;
-}
-
-.dark .obp-podcast-stat-num {
-  color: #60a5fa;
-}
-
-.obp-podcast-stat-label {
+}.obp-podcast-stat-label {
   font-size: 0.78rem;
   font-weight: 600;
   color: #64748b;
@@ -670,16 +601,7 @@ body {
 
 @media (max-width: 640px) {
   .obp-media-grid { grid-template-columns: 1fr; }
-}
-
-.dark .obp-media-mention {
-  background: linear-gradient(135deg, rgba(190,18,60,0.08) 0%, rgba(190,18,60,0.04) 100%);
-  border-color: rgba(190,18,60,0.25);
-}
-
-.dark .obp-media-mention-label { color: #fda4af; }
-
-/* b2b 注目カード（2枚横並び） */
+}/* b2b 注目カード（2枚横並び） */
 .obp-grid-b2b-featured {
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 16px;
@@ -733,7 +655,6 @@ body {
   opacity: 1;
 }
 
-
 /* Thumbnail */
 .obp-card-thumbnail {
   width: 100%;
@@ -743,13 +664,7 @@ body {
   position: relative;
   border-radius: var(--radius-card) var(--radius-card) 0 0;
   background: #f1f5f9;
-}
-
-.dark .obp-card-thumbnail {
-  background: #1e293b;
-}
-
-.obp-card-thumb-img {
+}.obp-card-thumb-img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -848,27 +763,11 @@ body {
   background: #fff1f2;
   color: #be123c;
   border: 1px solid #fecdd3;
-}
-
-.dark .badge-media {
-  background: rgba(190, 18, 60, 0.15);
-  color: #fda4af;
-  border-color: rgba(190, 18, 60, 0.3);
-}
-
-.badge-book {
+}.badge-book {
   background: #f0fdf4;
   color: #166534;
   border: 1px solid #bbf7d0;
-}
-
-.dark .badge-book {
-  background: rgba(22, 101, 52, 0.15);
-  color: #86efac;
-  border-color: rgba(22, 101, 52, 0.3);
-}
-
-.badge-spreadsheet {
+}.badge-spreadsheet {
   background: #f0fdf4;
   color: #15803d;
   border: 1px solid #bbf7d0;
@@ -878,21 +777,7 @@ body {
   background: #fff7ed;
   color: #c2410c;
   border: 1px solid #fed7aa;
-}
-
-.dark .badge-spreadsheet {
-  background: rgba(21, 128, 61, 0.15);
-  color: #86efac;
-  border-color: rgba(21, 128, 61, 0.3);
-}
-
-.dark .badge-competitive {
-  background: rgba(194, 65, 12, 0.15);
-  color: #fdba74;
-  border-color: rgba(194, 65, 12, 0.3);
-}
-
-.obp-episode-num {
+}.obp-episode-num {
   font-size: 0.75rem;
   font-weight: 800;
   color: #7c3aed;
@@ -1039,13 +924,7 @@ body {
   justify-content: center;
   font-size: 3.5rem;
   opacity: 0.35;
-}
-
-.dark .obp-book-cover {
-  background: #1e293b;
-}
-
-/* 書籍カード: 縦型ボディのフォントサイズ調整 */
+}/* 書籍カード: 縦型ボディのフォントサイズ調整 */
 .obp-card-book .obp-card-title {
   font-size: 0.88rem;
   line-height: 1.4;
@@ -1386,332 +1265,7 @@ body {
   width: auto !important;
   border-radius: 6px;
   transition: all var(--transition);
-}
-
-.dark .VPNavBarTitle .logo {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 4px 10px;
-  border-radius: 8px;
-}
-
-/* ===== Dark Mode Overrides ===== */
-
-/* Nav */
-.dark .VPNav {
-  background: rgba(13, 17, 23, 0.85) !important;
-  border-bottom-color: #1e3a5f !important;
-}
-
-/* Page background */
-.dark .VPPage {
-  background: #0d1117 !important;
-}
-
-/* Hero */
-.dark .obp-hero {
-  background: linear-gradient(160deg, #0d1117 0%, #0f1f3d 50%, #0d1117 100%);
-}
-
-.dark .obp-hero::before {
-  background-image:
-    radial-gradient(circle at 20% 50%, rgba(96,165,250,0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(34,211,238,0.08) 0%, transparent 50%);
-}
-
-.dark .obp-hero::after {
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2360a5fa' fill-opacity='0.06'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-
-.dark .obp-hero h1 {
-  background: linear-gradient(135deg, #60a5fa 0%, #93c5fd 50%, #22d3ee 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.dark .obp-hero-tagline {
-  color: #93c5fd;
-}
-
-.dark .obp-hero-logo {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  padding: 14px 24px;
-  filter: drop-shadow(0 4px 20px rgba(255, 255, 255, 0.12));
-}
-
-/* Buttons */
-.dark .obp-btn-secondary {
-  background: rgba(30, 41, 59, 0.8);
-  border-color: #3b82f6 !important;
-  border-bottom-color: #3b82f6 !important;
-  color: #60a5fa !important;
-}
-
-.dark .obp-btn-secondary:hover {
-  background: rgba(96, 165, 250, 0.1) !important;
-  border-color: #60a5fa !important;
-  color: #93c5fd !important;
-}
-
-/* Featured article */
-.dark .obp-featured {
-  background: linear-gradient(135deg, #0f1f3d 0%, #162542 50%, #0d1a30 100%);
-  border-color: #1e3a5f;
-}
-
-.dark .obp-featured:hover {
-  border-color: #3b82f6 !important;
-  box-shadow: 0 8px 32px rgba(96, 165, 250, 0.15) !important;
-  color: #e2e8f0 !important;
-}
-
-.dark .obp-featured-label {
-  color: #93c5fd;
-  background: rgba(96, 165, 250, 0.12);
-  border-color: rgba(96, 165, 250, 0.2);
-}
-
-.dark .obp-featured-body h2 {
-  color: #93c5fd;
-}
-
-.dark .obp-featured-body p {
-  color: #7dd3fc;
-}
-
-.dark .obp-featured-author {
-  color: #64748b;
-}
-
-.dark .obp-featured-link {
-  color: #60a5fa;
-}
-
-.dark .obp-featured-icon {
-  background: rgba(96, 165, 250, 0.12);
-  border-color: rgba(96, 165, 250, 0.2);
-}
-
-/* Section header */
-.dark .obp-section-header {
-  border-bottom-color: #1e3a5f;
-}
-
-.dark .obp-section-link {
-  background: rgba(96, 165, 250, 0.08) !important;
-  border-color: #1e3a5f !important;
-  border-bottom-color: #1e3a5f !important;
-  color: #60a5fa !important;
-}
-
-.dark .obp-section-link:hover {
-  background: rgba(96, 165, 250, 0.15) !important;
-  border-color: #3b82f6 !important;
-  color: #93c5fd !important;
-}
-
-/* Cards */
-.dark .obp-card {
-  background: #161b22;
-  border-color: #1e3a5f;
-}
-
-.dark .obp-card:hover {
-  border-color: #3b82f6 !important;
-  box-shadow: 0 8px 32px rgba(96, 165, 250, 0.2) !important;
-  color: #e2e8f0 !important;
-}
-
-.dark .obp-card-footer {
-  border-top-color: #1e293b;
-}
-
-/* Badges — dark */
-.dark .badge-speakerdeck {
-  background: rgba(46, 125, 50, 0.15);
-  color: #86efac;
-  border-color: rgba(46, 125, 50, 0.3);
-}
-
-.dark .badge-note {
-  background: rgba(230, 81, 0, 0.12);
-  color: #fdba74;
-  border-color: rgba(230, 81, 0, 0.25);
-}
-
-.dark .badge-qiita {
-  background: rgba(27, 94, 32, 0.15);
-  color: #86efac;
-  border-color: rgba(27, 94, 32, 0.3);
-}
-
-.dark .badge-zenn {
-  background: rgba(21, 101, 192, 0.15);
-  color: #93c5fd;
-  border-color: rgba(21, 101, 192, 0.3);
-}
-
-.dark .badge-brainpad {
-  background: rgba(106, 27, 154, 0.15);
-  color: #d8b4fe;
-  border-color: rgba(106, 27, 154, 0.3);
-}
-
-.dark .badge-blog {
-  background: rgba(136, 14, 79, 0.15);
-  color: #f9a8d4;
-  border-color: rgba(136, 14, 79, 0.25);
-}
-
-.dark .badge-podcast {
-  background: rgba(69, 39, 160, 0.15);
-  color: #c4b5fd;
-  border-color: rgba(69, 39, 160, 0.3);
-}
-
-.dark .badge-connpass {
-  background: rgba(191, 54, 12, 0.12);
-  color: #fdba74;
-  border-color: rgba(191, 54, 12, 0.25);
-}
-
-.dark .obp-episode-num {
-  background: rgba(124, 58, 237, 0.15);
-  color: #c4b5fd;
-  border-color: rgba(124, 58, 237, 0.3);
-}
-
-/* View count */
-.dark .obp-view-count {
-  background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(109,40,217,0.2));
-  border-color: rgba(196,181,253,0.3);
-  color: #c4b5fd;
-}
-
-.dark .obp-card:hover .obp-view-count {
-  background: linear-gradient(135deg, rgba(124,58,237,0.25), rgba(109,40,217,0.3));
-  border-color: #c4b5fd;
-  color: #ddd6fe;
-}
-
-/* CTA arrow */
-.dark .obp-card-cta {
-  color: #60a5fa;
-}
-
-/* Skeleton */
-.dark .obp-card-thumb-skeleton {
-  background: #1e293b;
-}
-
-.dark .obp-skeleton-shimmer {
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(96, 165, 250, 0.08) 50%,
-    transparent 100%
-  );
-}
-
-/* Meetup card */
-.dark .obp-meetup-card {
-  background: linear-gradient(135deg, #0f1f3d 0%, #162542 100%);
-  border-color: #1e3a5f;
-}
-
-.dark .obp-meetup-info h3 {
-  color: #93c5fd;
-}
-
-.dark .obp-meetup-info p {
-  color: #7dd3fc;
-}
-
-.dark .obp-meetup-link.outline {
-  color: #60a5fa !important;
-  border-color: #3b82f6 !important;
-}
-
-.dark .obp-meetup-link.outline:hover {
-  background: rgba(96, 165, 250, 0.1) !important;
-  color: #93c5fd !important;
-}
-
-.dark .obp-meetup-format {
-  background: #161b22;
-  border-color: #1e3a5f;
-}
-
-.dark .obp-meetup-format p {
-  color: #94a3b8;
-}
-
-.dark .obp-meetup-format strong {
-  color: #93c5fd;
-}
-
-/* Footer */
-.dark .VPFooter {
-  background: #0d1117 !important;
-  border-top-color: #1e3a5f !important;
-}
-
-/* Scrollbar */
-.dark ::-webkit-scrollbar-track {
-  background: #0d1117;
-}
-
-.dark ::-webkit-scrollbar-thumb {
-  background: #1e3a5f;
-}
-
-.dark ::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6;
-}
-
-/* Search button */
-.dark .VPNavBarSearch button {
-  background: rgba(30, 58, 95, 0.5) !important;
-  border-color: #1e3a5f !important;
-  color: #60a5fa !important;
-}
-
-.dark .VPNavBarSearch button:hover {
-  background: rgba(96, 165, 250, 0.1) !important;
-  border-color: #3b82f6 !important;
-}
-
-.dark .VPNavBarSearch button .vpi-search {
-  color: #60a5fa !important;
-}
-
-.dark .VPNavBarSearch kbd {
-  background: rgba(96, 165, 250, 0.1) !important;
-  border-color: #1e3a5f !important;
-  color: #60a5fa !important;
-}
-
-/* Search modal */
-.dark .VPLocalSearchBox .shell {
-  border-color: #1e3a5f !important;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5) !important;
-}
-
-.dark .VPLocalSearchBox .search-input-container {
-  background: #161b22 !important;
-  border-bottom-color: #1e3a5f !important;
-}
-
-.dark .VPLocalSearchBox input {
-  color: #e2e8f0 !important;
-}
-
-.dark .VPLocalSearchBox .result-item.selected {
-  background: rgba(96, 165, 250, 0.08) !important;
-}
-
-/* ===== 採用バナー ===== */
+}/* ===== 採用バナー ===== */
 .obp-recruit-banner {
   position: relative;
   overflow: hidden;
