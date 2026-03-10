@@ -39,7 +39,12 @@
 }/* ===== Reset / Base ===== */
 * { box-sizing: border-box; }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
+  overflow-x: hidden;
   background: var(--color-bg) !important;
   font-family: 'Inter', 'Noto Sans JP', system-ui, -apple-system, sans-serif !important;
 }
@@ -77,6 +82,8 @@ body {
 
 .VPPageContent {
   padding: 0 !important;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 /* ===== Hero Section ===== */
