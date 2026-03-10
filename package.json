@@ -1,0 +1,14 @@
+{
+  "name": "openbrainpad-new",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OpenBrainPad - BrainPad Data Science Community",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}

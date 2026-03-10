@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg)"/>
+
+  <!-- Left panel: header + event list -->
+  <rect x="32" y="32" width="460" height="356" rx="14" fill="white" opacity="0.9"/>
+
+  <!-- Panel header bar -->
+  <rect x="32" y="32" width="460" height="54" rx="14" fill="url(#header)"/>
+  <rect x="32" y="72" width="460" height="14" fill="url(#header)"/>
+  <text x="262" y="64" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="white">🍺  白金鉱業 Meetup — イベント一覧</text>
+
+  <!-- Event row 1 -->
+  <rect x="52" y="106" width="420" height="56" rx="8" fill="#f8faff" stroke="#dbeafe" stroke-width="1.5"/>
+  <rect x="62" y="117" width="52" height="34" rx="6" fill="#2563eb"/>
+  <text x="88" y="131" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="white">JAN</text>
+  <text x="88" y="144" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="white">18</text>
+  <text x="128" y="128" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1e40af">白金鉱業 Meetup Vol.14</text>
+  <text x="128" y="148" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">オンライン開催 · 登壇4名</text>
+  <rect x="430" y="122" width="28" height="22" rx="11" fill="#dcfce7"/>
+  <text x="444" y="136" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#16a34a">参加</text>
+
+  <!-- Event row 2 -->
+  <rect x="52" y="170" width="420" height="56" rx="8" fill="#f8faff" stroke="#dbeafe" stroke-width="1.5"/>
+  <rect x="62" y="181" width="52" height="34" rx="6" fill="#7c3aed"/>
+  <text x="88" y="195" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="white">NOV</text>
+  <text x="88" y="208" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="white">22</text>
+  <text x="128" y="192" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1e40af">白金鉱業 Meetup Vol.13</text>
+  <text x="128" y="212" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">ハイブリッド開催 · 登壇3名</text>
+  <rect x="430" y="186" width="28" height="22" rx="11" fill="#dcfce7"/>
+  <text x="444" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#16a34a">参加</text>
+
+  <!-- Event row 3 -->
+  <rect x="52" y="234" width="420" height="56" rx="8" fill="#f8faff" stroke="#dbeafe" stroke-width="1.5"/>
+  <rect x="62" y="245" width="52" height="34" rx="6" fill="#0891b2"/>
+  <text x="88" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="white">SEP</text>
+  <text x="88" y="272" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="white">5</text>
+  <text x="128" y="256" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1e40af">白金鉱業 Meetup Vol.12</text>
+  <text x="128" y="276" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">オンライン開催 · 登壇4名</text>
+  <rect x="430" y="250" width="28" height="22" rx="11" fill="#dcfce7"/>
+  <text x="444" y="264" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="#16a34a">参加</text>
+
+  <!-- Event row 4 (faded) -->
+  <rect x="52" y="298" width="420" height="56" rx="8" fill="#f8faff" stroke="#dbeafe" stroke-width="1.5" opacity="0.6"/>
+  <rect x="62" y="309" width="52" height="34" rx="6" fill="#94a3b8" opacity="0.6"/>
+  <text x="88" y="323" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" font-weight="700" fill="white">JUN</text>
+  <text x="88" y="336" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="900" fill="white">20</text>
+  <text x="128" y="320" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#64748b" opacity="0.7">白金鉱業 Meetup Vol.11</text>
+  <text x="128" y="340" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8" opacity="0.7">オンライン開催 · 登壇3名</text>
+
+  <!-- Right panel: stats -->
+  <rect x="508" y="32" width="260" height="170" rx="14" fill="white" opacity="0.9"/>
+  <text x="638" y="68" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#64748b">累計開催回数</text>
+  <text x="638" y="120" text-anchor="middle" font-family="system-ui,sans-serif" font-size="56" font-weight="900" fill="#2563eb">14</text>
+  <text x="638" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#94a3b8">回</text>
+  <line x1="538" y1="162" x2="748" y2="162" stroke="#dbeafe" stroke-width="1"/>
+  <text x="638" y="186" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">2018年〜 継続開催中</text>
+
+  <!-- Right panel: connpass badge -->
+  <rect x="508" y="218" width="260" height="80" rx="14" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="638" y="248" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#c2410c">connpass</text>
+  <text x="638" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#92400e">イベント詳細・参加申込</text>
+  <text x="638" y="288" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20">🍺</text>
+
+  <!-- Right panel: tag chips -->
+  <rect x="508" y="314" width="260" height="74" rx="14" fill="white" opacity="0.9"/>
+  <rect x="520" y="326" width="72" height="22" rx="11" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="556" y="341" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#2563eb">データ分析</text>
+  <rect x="600" y="326" width="60" height="22" rx="11" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="630" y="341" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#16a34a">機械学習</text>
+  <rect x="520" y="354" width="44" height="22" rx="11" fill="#fdf4ff" stroke="#e9d5ff" stroke-width="1"/>
+  <text x="542" y="369" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#7c3aed">LLM</text>
+  <rect x="572" y="354" width="72" height="22" rx="11" fill="#fff7ed" stroke="#fed7aa" stroke-width="1"/>
+  <text x="608" y="369" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#c2410c">交流・懇親</text>
+</svg>
