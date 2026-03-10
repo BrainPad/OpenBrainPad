@@ -317,6 +317,7 @@ title: OpenBrainPad
       <ContentCard
         title="白金鉱業.FM 2023年振り返り"
         url="https://note.com/nash_efp/n/n903679641862"
+        image="https://assets.st-note.com/production/uploads/images/258040167/rectangle_large_type_2_a7f40937dbeedbf05e46ba9696baf299.png?fit=bounds&quality=85&width=1280"
         description="2023年に配信したエピソードを総まとめ。組織の変化・注目テーマ・リスナーの反応を振り返る年次レポート。"
         source="note"
         author="@nash_efp"
