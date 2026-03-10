@@ -8,10 +8,9 @@ title: OpenBrainPad
   <div class="obp-hero-inner">
     <a href="https://twitter.com/hashtag/OpenBP" target="_blank" rel="noopener" class="obp-hero-badge">#OpenBP プロジェクト</a>
     <img src="/logo-hero.png" alt="OpenBrainPad" class="obp-hero-logo" />
-    <p class="obp-hero-tagline">データサイエンスの知見を、社会へ。</p>
     <p class="obp-hero-desc">
-      ブレインパッド社のデータサイエンティスト有志による<br>
-      技術資料公開・ポッドキャスト・勉強会の情報発信プロジェクトです。
+      ブレインパッドが社内の「中身」をもっと詳しく知ってもらうため、研修資料、勉強会、文化について発信する。<br>
+      ブレインパッドをもっとオープンにしていくプロジェクトです。
     </p>
     <div class="obp-hero-actions">
       <a href="#materials" class="obp-btn-primary">📃 資料を見る</a>
