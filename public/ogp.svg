@@ -1,55 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#e0f2fe"/>
-      <stop offset="60%"  stop-color="#bae6fd"/>
-      <stop offset="100%" stop-color="#7dd3fc"/>
+      <stop offset="0%"   stop-color="#e8f8ff"/>
+      <stop offset="100%" stop-color="#b8e8fa"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+    <linearGradient id="blob1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#7dd3fc" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
     </linearGradient>
-    <filter id="blur1"><feGaussianBlur stdDeviation="40"/></filter>
-    <filter id="blur2"><feGaussianBlur stdDeviation="60"/></filter>
+    <linearGradient id="blob2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#bae6fd" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="f1"><feGaussianBlur stdDeviation="50"/></filter>
+    <filter id="f2"><feGaussianBlur stdDeviation="70"/></filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="24" flood-color="#0369a1" flood-opacity="0.1"/>
+    </filter>
   </defs>
 
+  <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
 
   <!-- Decorative blobs -->
-  <circle cx="1050" cy="100" r="200" fill="#38bdf8" opacity="0.25" filter="url(#blur2)"/>
-  <circle cx="100"  cy="500" r="160" fill="#7dd3fc" opacity="0.2"  filter="url(#blur1)"/>
-  <circle cx="600"  cy="600" r="120" fill="#bae6fd" opacity="0.3"  filter="url(#blur1)"/>
+  <ellipse cx="1100" cy="80"  rx="280" ry="220" fill="url(#blob1)" filter="url(#f2)"/>
+  <ellipse cx="80"   cy="560" rx="220" ry="180" fill="url(#blob2)" filter="url(#f1)"/>
+  <ellipse cx="600"  cy="640" rx="300" ry="130" fill="#7dd3fc" opacity="0.2" filter="url(#f1)"/>
 
-  <!-- Dot grid -->
-  <g opacity="0.12" fill="#0369a1">
-    <circle cx="960" cy="200" r="3"/><circle cx="1000" cy="200" r="3"/><circle cx="1040" cy="200" r="3"/><circle cx="1080" cy="200" r="3"/>
-    <circle cx="960" cy="240" r="3"/><circle cx="1000" cy="240" r="3"/><circle cx="1040" cy="240" r="3"/><circle cx="1080" cy="240" r="3"/>
-    <circle cx="960" cy="280" r="3"/><circle cx="1000" cy="280" r="3"/><circle cx="1040" cy="280" r="3"/><circle cx="1080" cy="280" r="3"/>
-    <circle cx="80"  cy="80"  r="3"/><circle cx="120" cy="80"  r="3"/><circle cx="160" cy="80"  r="3"/>
-    <circle cx="80"  cy="120" r="3"/><circle cx="120" cy="120" r="3"/><circle cx="160" cy="120" r="3"/>
-    <circle cx="80"  cy="160" r="3"/><circle cx="120" cy="160" r="3"/>
-  </g>
+  <!-- White card panel -->
+  <rect x="80" y="60" width="1040" height="510" rx="32" fill="white" opacity="0.72" filter="url(#shadow)"/>
 
-  <!-- Logo (logo-hero.png 1024x221 → display 780x168) -->
-  <image href="logo-hero.png" x="210" y="155" width="780" height="168"/>
+  <!-- Top accent bar -->
+  <rect x="80" y="60" width="1040" height="10" rx="32" fill="#38bdf8"/>
+  <rect x="80" y="66" width="1040" height="4"  fill="#38bdf8"/>
 
-  <!-- Accent bar -->
-  <rect x="210" y="348" width="100" height="5" rx="2.5" fill="url(#accent)"/>
+  <!-- Logo (logo-hero.png 1024x221 → 820x177) centered in card -->
+  <image href="logo-hero.png" x="190" y="130" width="820" height="177"/>
 
-  <!-- Description -->
-  <text x="210" y="402" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="28" font-weight="500" fill="#0c4a6e">ブレインパッドの「中身」をもっと詳しく知ってもらうため、</text>
-  <text x="210" y="444" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="28" font-weight="500" fill="#0c4a6e">研修資料、勉強会、文化について発信するプロジェクト。</text>
+  <!-- Divider -->
+  <rect x="190" y="332" width="820" height="2" rx="1" fill="#bae6fd"/>
 
-  <!-- Tags -->
-  <rect x="210" y="490" width="110" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
-  <text x="265" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">📃 資料公開</text>
-  <rect x="334" y="490" width="100" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
-  <text x="384" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">🎙 Podcast</text>
-  <rect x="448" y="490" width="96" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
-  <text x="496" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">🤝 Meetup</text>
-  <rect x="558" y="490" width="80" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
-  <text x="598" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">📖 書籍</text>
+  <!-- Tagline -->
+  <text x="600" y="392" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="26" font-weight="600" fill="#0369a1">ブレインパッドの「中身」をオープンにするプロジェクト</text>
+
+  <!-- Tag pills -->
+  <rect x="248" y="424" width="118" height="36" rx="18" fill="#e0f2fe"/>
+  <text x="307" y="447" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#0284c7">📃 資料公開</text>
+
+  <rect x="382" y="424" width="104" height="36" rx="18" fill="#e0f2fe"/>
+  <text x="434" y="447" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#0284c7">🎙 Podcast</text>
+
+  <rect x="502" y="424" width="100" height="36" rx="18" fill="#e0f2fe"/>
+  <text x="552" y="447" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#0284c7">🤝 Meetup</text>
+
+  <rect x="618" y="424" width="82" height="36" rx="18" fill="#e0f2fe"/>
+  <text x="659" y="447" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#0284c7">📖 書籍</text>
+
+  <rect x="716" y="424" width="116" height="36" rx="18" fill="#e0f2fe"/>
+  <text x="774" y="447" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="700" fill="#0284c7">📚 勉強会</text>
 
   <!-- URL -->
-  <text x="210" y="592" font-family="sans-serif" font-size="17" fill="#0369a1" opacity="0.6">brainpad.github.io/OpenBrainPad</text>
+  <text x="600" y="530" text-anchor="middle" font-family="'Courier New',monospace" font-size="17" fill="#7ea8be">brainpad.github.io/OpenBrainPad</text>
 </svg>
