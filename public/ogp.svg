@@ -1,112 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#1e1b4b"/>
-      <stop offset="100%" stop-color="#312e81"/>
+      <stop offset="0%"   stop-color="#e0f2fe"/>
+      <stop offset="60%"  stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="60"/></filter>
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
 
-  <!-- Grid dots pattern -->
-  <g opacity="0.08">
-    <circle cx="60"  cy="60"  r="2" fill="white"/>
-    <circle cx="120" cy="60"  r="2" fill="white"/>
-    <circle cx="180" cy="60"  r="2" fill="white"/>
-    <circle cx="240" cy="60"  r="2" fill="white"/>
-    <circle cx="300" cy="60"  r="2" fill="white"/>
-    <circle cx="60"  cy="120" r="2" fill="white"/>
-    <circle cx="120" cy="120" r="2" fill="white"/>
-    <circle cx="180" cy="120" r="2" fill="white"/>
-    <circle cx="240" cy="120" r="2" fill="white"/>
-    <circle cx="300" cy="120" r="2" fill="white"/>
-    <circle cx="60"  cy="180" r="2" fill="white"/>
-    <circle cx="120" cy="180" r="2" fill="white"/>
-    <circle cx="180" cy="180" r="2" fill="white"/>
-    <circle cx="240" cy="180" r="2" fill="white"/>
-    <circle cx="60"  cy="240" r="2" fill="white"/>
-    <circle cx="120" cy="240" r="2" fill="white"/>
-    <circle cx="180" cy="240" r="2" fill="white"/>
-    <circle cx="900" cy="420" r="2" fill="white"/>
-    <circle cx="960" cy="420" r="2" fill="white"/>
-    <circle cx="1020" cy="420" r="2" fill="white"/>
-    <circle cx="1080" cy="420" r="2" fill="white"/>
-    <circle cx="1140" cy="420" r="2" fill="white"/>
-    <circle cx="900" cy="480" r="2" fill="white"/>
-    <circle cx="960" cy="480" r="2" fill="white"/>
-    <circle cx="1020" cy="480" r="2" fill="white"/>
-    <circle cx="1080" cy="480" r="2" fill="white"/>
-    <circle cx="1140" cy="480" r="2" fill="white"/>
-    <circle cx="900" cy="540" r="2" fill="white"/>
-    <circle cx="960" cy="540" r="2" fill="white"/>
-    <circle cx="1020" cy="540" r="2" fill="white"/>
-    <circle cx="1080" cy="540" r="2" fill="white"/>
-    <circle cx="1140" cy="540" r="2" fill="white"/>
+  <!-- Decorative blobs -->
+  <circle cx="1050" cy="100" r="200" fill="#38bdf8" opacity="0.25" filter="url(#blur2)"/>
+  <circle cx="100"  cy="500" r="160" fill="#7dd3fc" opacity="0.2"  filter="url(#blur1)"/>
+  <circle cx="600"  cy="600" r="120" fill="#bae6fd" opacity="0.3"  filter="url(#blur1)"/>
+
+  <!-- Dot grid -->
+  <g opacity="0.12" fill="#0369a1">
+    <circle cx="960" cy="200" r="3"/><circle cx="1000" cy="200" r="3"/><circle cx="1040" cy="200" r="3"/><circle cx="1080" cy="200" r="3"/>
+    <circle cx="960" cy="240" r="3"/><circle cx="1000" cy="240" r="3"/><circle cx="1040" cy="240" r="3"/><circle cx="1080" cy="240" r="3"/>
+    <circle cx="960" cy="280" r="3"/><circle cx="1000" cy="280" r="3"/><circle cx="1040" cy="280" r="3"/><circle cx="1080" cy="280" r="3"/>
+    <circle cx="80"  cy="80"  r="3"/><circle cx="120" cy="80"  r="3"/><circle cx="160" cy="80"  r="3"/>
+    <circle cx="80"  cy="120" r="3"/><circle cx="120" cy="120" r="3"/><circle cx="160" cy="120" r="3"/>
+    <circle cx="80"  cy="160" r="3"/><circle cx="120" cy="160" r="3"/>
   </g>
 
-  <!-- Decorative bar chart (right side) -->
-  <g opacity="0.15" transform="translate(880, 80)">
-    <rect x="0"   y="220" width="36" height="80"  rx="4" fill="#6366f1"/>
-    <rect x="48"  y="160" width="36" height="140" rx="4" fill="#818cf8"/>
-    <rect x="96"  y="100" width="36" height="200" rx="4" fill="#6366f1"/>
-    <rect x="144" y="60"  width="36" height="240" rx="4" fill="#a5b4fc"/>
-    <rect x="192" y="130" width="36" height="170" rx="4" fill="#6366f1"/>
-    <rect x="240" y="80"  width="36" height="220" rx="4" fill="#818cf8"/>
-  </g>
+  <!-- Logo (logo-hero.png 1024x221 → display 780x168) -->
+  <image href="logo-hero.png" x="210" y="155" width="780" height="168"/>
 
-  <!-- Decorative line chart (left bottom) -->
-  <g opacity="0.12" transform="translate(40, 380)">
-    <polyline points="0,100 50,80 100,110 150,50 200,70 250,30 300,55 350,20" fill="none" stroke="#a5b4fc" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-    <circle cx="0"   cy="100" r="5" fill="#a5b4fc"/>
-    <circle cx="50"  cy="80"  r="5" fill="#a5b4fc"/>
-    <circle cx="100" cy="110" r="5" fill="#a5b4fc"/>
-    <circle cx="150" cy="50"  r="5" fill="#a5b4fc"/>
-    <circle cx="200" cy="70"  r="5" fill="#a5b4fc"/>
-    <circle cx="250" cy="30"  r="5" fill="#a5b4fc"/>
-    <circle cx="300" cy="55"  r="5" fill="#a5b4fc"/>
-    <circle cx="350" cy="20"  r="5" fill="#a5b4fc"/>
-  </g>
+  <!-- Accent bar -->
+  <rect x="210" y="348" width="100" height="5" rx="2.5" fill="url(#accent)"/>
 
-  <!-- Scatter plot dots (top right area) -->
-  <g opacity="0.2">
-    <circle cx="1050" cy="80"  r="6" fill="#6366f1"/>
-    <circle cx="1100" cy="50"  r="4" fill="#818cf8"/>
-    <circle cx="1080" cy="120" r="8" fill="#4f46e5"/>
-    <circle cx="1140" cy="100" r="5" fill="#6366f1"/>
-    <circle cx="1160" cy="60"  r="3" fill="#a5b4fc"/>
-    <circle cx="1020" cy="140" r="4" fill="#818cf8"/>
-    <circle cx="1000" cy="90"  r="6" fill="#6366f1"/>
-  </g>
-
-  <!-- Accent line -->
-  <rect x="100" y="260" width="80" height="4" rx="2" fill="url(#accent)"/>
-
-  <!-- Main title -->
-  <text x="100" y="220" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="96" font-weight="900" letter-spacing="-3" fill="white">OpenBrainPad</text>
-
-  <!-- Subtitle -->
-  <text x="100" y="320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="rgba(165,180,252,0.9)">ブレインパッドのデータサイエンティスト有志による</text>
-  <text x="100" y="358" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" font-weight="400" fill="rgba(165,180,252,0.9)">技術資料公開・業界向け情報発信プロジェクト</text>
+  <!-- Description -->
+  <text x="210" y="402" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="28" font-weight="500" fill="#0c4a6e">ブレインパッドの「中身」をもっと詳しく知ってもらうため、</text>
+  <text x="210" y="444" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="28" font-weight="500" fill="#0c4a6e">研修資料、勉強会、文化について発信するプロジェクト。</text>
 
   <!-- Tags -->
-  <rect x="100" y="400" width="140" height="34" rx="17" fill="rgba(99,102,241,0.3)"/>
-  <text x="170" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#a5b4fc">📃 資料公開</text>
-
-  <rect x="256" y="400" width="140" height="34" rx="17" fill="rgba(8,145,178,0.3)"/>
-  <text x="326" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#67e8f9">🎙 Podcast</text>
-
-  <rect x="412" y="400" width="140" height="34" rx="17" fill="rgba(124,58,237,0.3)"/>
-  <text x="482" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#c4b5fd">🤝 Meetup</text>
-
-  <rect x="568" y="400" width="140" height="34" rx="17" fill="rgba(5,150,105,0.3)"/>
-  <text x="638" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#6ee7b7">📖 書籍</text>
+  <rect x="210" y="490" width="110" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
+  <text x="265" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">📃 資料公開</text>
+  <rect x="334" y="490" width="100" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
+  <text x="384" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">🎙 Podcast</text>
+  <rect x="448" y="490" width="96" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
+  <text x="496" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">🤝 Meetup</text>
+  <rect x="558" y="490" width="80" height="34" rx="17" fill="#0ea5e9" opacity="0.2"/>
+  <text x="598" y="513" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#0369a1">📖 書籍</text>
 
   <!-- URL -->
-  <text x="100" y="570" font-family="system-ui, sans-serif" font-size="18" fill="rgba(255,255,255,0.3)">brainpad.github.io/OpenBrainPad</text>
+  <text x="210" y="592" font-family="sans-serif" font-size="17" fill="#0369a1" opacity="0.6">brainpad.github.io/OpenBrainPad</text>
 </svg>
