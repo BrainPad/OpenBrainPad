@@ -9,7 +9,7 @@ title: OpenBrainPad
     <a href="https://twitter.com/hashtag/OpenBP" target="_blank" rel="noopener" class="obp-hero-badge">#OpenBP プロジェクト</a>
     <img src="/logo-hero.png" alt="OpenBrainPad" class="obp-hero-logo" />
     <p class="obp-hero-desc">
-      ブレインパッドが社内の「中身」をもっと詳しく知ってもらうため、研修資料、勉強会、文化について発信する。<br>
+      ブレインパッドの「中身」をもっと詳しく知ってもらうため、研修資料、勉強会、文化について発信する。<br>
       ブレインパッドをもっとオープンにしていくプロジェクトです。
     </p>
     <div class="obp-hero-actions">
