@@ -352,7 +352,7 @@ title: OpenBrainPad
       <span class="obp-section-icon">🤝</span>
       <div class="obp-section-meta">
         <h2 class="obp-section-title">ミートアップ</h2>
-        <p class="obp-section-desc">社内外のデータサイエンティストたち向けの勉強会＆交流会「白金鉱業 Meetup」を開催しています。</p>
+        <p class="obp-section-desc">データサイエンティストをはじめとしたデータ職種、データ分析に興味のある学生向けの勉強会＆交流会「白金鉱業 Meetup」を開催しています。</p>
         <div class="obp-podcast-stats">
           <div class="obp-podcast-stat"><span class="obp-podcast-stat-num"><ConnpassCount /></span><span class="obp-podcast-stat-label">回開催</span></div>
           <div class="obp-podcast-stat"><span class="obp-podcast-stat-num">2018</span><span class="obp-podcast-stat-label">年〜</span></div>
@@ -364,7 +364,7 @@ title: OpenBrainPad
         <h3>白金鉱業 Meetup</h3>
         <p>
           3〜4名×20分の登壇ゲストでお届けするデータサイエンス系のミートアップイベントです。<br>
-          社内外のデータサイエンティストたちが集まり、最新の知見を共有・交流する場となっています。
+          データサイエンティストをはじめとしたデータ職種やデータ分析に興味のある学生が集まり、最新の知見を共有・交流する場となっています。
         </p>
       </div>
       <div class="obp-meetup-format">
@@ -372,7 +372,7 @@ title: OpenBrainPad
           <strong>登壇形式</strong><br>
           3〜4名 × 20分<br><br>
           <strong>対象</strong><br>
-          データサイエンティストたち
+          データサイエンティストをはじめとしたデータ職種、データ分析に興味のある学生
         </p>
       </div>
     </div>
