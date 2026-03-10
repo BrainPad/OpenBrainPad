@@ -16,7 +16,8 @@ export default defineConfig({
     ['meta', { property: 'og:title',       content: 'OpenBrainPad' }],
     ['meta', { property: 'og:description', content: 'ブレインパッドのデータサイエンティスト有志による技術資料公開・業界向け情報発信プロジェクト' }],
     ['meta', { property: 'og:url',         content: 'https://brainpad.github.io/OpenBrainPad/' }],
-    ['meta', { property: 'og:image',       content: 'https://brainpad.github.io/OpenBrainPad/ogp.svg' }],
+    ['meta', { property: 'og:image',       content: 'https://brainpad.github.io/OpenBrainPad/ogp.png' }],
+    ['meta', { property: 'og:image:type',  content: 'image/png' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height',content: '630' }],
     ['meta', { property: 'og:locale',      content: 'ja_JP' }],
@@ -26,7 +27,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:site',        content: '@Open_BrainPad' }],
     ['meta', { name: 'twitter:title',       content: 'OpenBrainPad' }],
     ['meta', { name: 'twitter:description', content: 'ブレインパッドのデータサイエンティスト有志による技術資料公開・業界向け情報発信プロジェクト' }],
-    ['meta', { name: 'twitter:image',       content: 'https://brainpad.github.io/OpenBrainPad/ogp.svg' }],
+    ['meta', { name: 'twitter:image',       content: 'https://brainpad.github.io/OpenBrainPad/ogp.png' }],
 
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
