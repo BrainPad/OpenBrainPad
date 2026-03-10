@@ -1,81 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
   <defs>
-    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#eff6ff"/>
-      <stop offset="100%" stop-color="#dbeafe"/>
-    </linearGradient>
-    <linearGradient id="hdr2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2563eb"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="420" fill="url(#bg2)"/>
 
-  <!-- Main container -->
-  <rect x="32" y="32" width="736" height="356" rx="14" fill="white" opacity="0.88"/>
+  <rect width="800" height="420" fill="url(#bg)"/>
 
-  <!-- Header -->
-  <rect x="32" y="32" width="736" height="54" rx="14" fill="url(#hdr2)"/>
-  <rect x="32" y="72" width="736" height="14" fill="url(#hdr2)"/>
-  <text x="400" y="64" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="white">📊  白金鉱業 Meetup — 発表資料一覧</text>
+  <!-- Panel background -->
+  <rect x="40" y="30" width="720" height="360" rx="12" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
 
-  <!-- Slide card: row 1, col 1 -->
-  <rect x="52" y="106" width="220" height="128" rx="8" fill="#1e40af"/>
-  <rect x="52" y="106" width="220" height="38" rx="8" fill="#2563eb"/>
-  <rect x="52" y="130" width="220" height="14" fill="#2563eb"/>
-  <text x="162" y="130" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white">データ分析基礎</text>
-  <rect x="68" y="154" width="140" height="7" rx="3" fill="rgba(255,255,255,0.35)"/>
-  <rect x="68" y="167" width="110" height="7" rx="3" fill="rgba(255,255,255,0.25)"/>
-  <rect x="68" y="180" width="130" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
-  <text x="162" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="rgba(255,255,255,0.15)">📊</text>
+  <!-- Header bar -->
+  <rect x="40" y="30" width="720" height="44" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <rect x="40" y="62" width="720" height="12" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="70"  cy="52" r="6" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="90"  cy="52" r="6" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="110" cy="52" r="6" fill="rgba(255,255,255,0.1)"/>
+  <rect x="140" y="46" width="160" height="12" rx="3" fill="rgba(255,255,255,0.1)"/>
 
-  <!-- Slide card: row 1, col 2 -->
-  <rect x="290" y="106" width="220" height="128" rx="8" fill="#0f766e"/>
-  <rect x="290" y="106" width="220" height="38" rx="8" fill="#0d9488"/>
-  <rect x="290" y="130" width="220" height="14" fill="#0d9488"/>
-  <text x="400" y="130" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white">機械学習入門</text>
-  <rect x="306" y="154" width="130" height="7" rx="3" fill="rgba(255,255,255,0.35)"/>
-  <rect x="306" y="167" width="150" height="7" rx="3" fill="rgba(255,255,255,0.25)"/>
-  <rect x="306" y="180" width="100" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
-  <text x="400" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="rgba(255,255,255,0.15)">🤖</text>
+  <!-- List items -->
 
-  <!-- Slide card: row 1, col 3 -->
-  <rect x="528" y="106" width="220" height="128" rx="8" fill="#6d28d9"/>
-  <rect x="528" y="106" width="220" height="38" rx="8" fill="#7c3aed"/>
-  <rect x="528" y="130" width="220" height="14" fill="#7c3aed"/>
-  <text x="638" y="130" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white">LLM 活用事例</text>
-  <rect x="544" y="154" width="120" height="7" rx="3" fill="rgba(255,255,255,0.35)"/>
-  <rect x="544" y="167" width="140" height="7" rx="3" fill="rgba(255,255,255,0.25)"/>
-  <rect x="544" y="180" width="90" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
-  <text x="638" y="222" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="rgba(255,255,255,0.15)">💡</text>
+  <!-- Item 1 -->
+  <rect x="60" y="92" width="680" height="52" rx="6" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.25)" stroke-width="1"/>
+  <!-- slide thumb -->
+  <rect x="74"  y="102" width="68" height="32" rx="4" fill="rgba(99,102,241,0.5)"/>
+  <rect x="74"  y="102" width="68" height="10" rx="4" fill="rgba(99,102,241,0.8)"/>
+  <rect x="79"  y="116" width="36" height="3"  rx="1" fill="rgba(255,255,255,0.5)"/>
+  <rect x="79"  y="122" width="50" height="2"  rx="1" fill="rgba(255,255,255,0.3)"/>
+  <!-- text lines -->
+  <rect x="156" y="106" width="200" height="8"  rx="2" fill="rgba(255,255,255,0.7)"/>
+  <rect x="156" y="120" width="140" height="6"  rx="2" fill="rgba(255,255,255,0.3)"/>
+  <!-- tag -->
+  <rect x="594" y="109" width="80" height="18" rx="9" fill="rgba(99,102,241,0.35)"/>
+  <rect x="604" y="115" width="60" height="6"  rx="2" fill="rgba(165,180,252,0.7)"/>
+  <!-- arrow -->
+  <text x="710" y="122" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.3)">›</text>
 
-  <!-- Slide card: row 2, col 1 -->
-  <rect x="52" y="250" width="220" height="118" rx="8" fill="#be123c"/>
-  <rect x="52" y="250" width="220" height="36" rx="8" fill="#e11d48"/>
-  <rect x="52" y="272" width="220" height="14" fill="#e11d48"/>
-  <text x="162" y="272" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white">因果推論の実践</text>
-  <rect x="68" y="296" width="150" height="7" rx="3" fill="rgba(255,255,255,0.35)"/>
-  <rect x="68" y="309" width="110" height="7" rx="3" fill="rgba(255,255,255,0.25)"/>
-  <rect x="68" y="322" width="130" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <!-- Item 2 -->
+  <rect x="60" y="154" width="680" height="52" rx="6" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.2)" stroke-width="1"/>
+  <rect x="74"  y="164" width="68" height="32" rx="4" fill="rgba(8,145,178,0.5)"/>
+  <rect x="74"  y="164" width="68" height="10" rx="4" fill="rgba(8,145,178,0.8)"/>
+  <rect x="79"  y="178" width="40" height="3"  rx="1" fill="rgba(255,255,255,0.5)"/>
+  <rect x="79"  y="184" width="52" height="2"  rx="1" fill="rgba(255,255,255,0.3)"/>
+  <rect x="156" y="168" width="240" height="8"  rx="2" fill="rgba(255,255,255,0.7)"/>
+  <rect x="156" y="182" width="160" height="6"  rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="594" y="171" width="80" height="18" rx="9" fill="rgba(8,145,178,0.35)"/>
+  <rect x="604" y="177" width="60" height="6"  rx="2" fill="rgba(103,232,249,0.7)"/>
+  <text x="710" y="184" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.3)">›</text>
 
-  <!-- Slide card: row 2, col 2 -->
-  <rect x="290" y="250" width="220" height="118" rx="8" fill="#b45309"/>
-  <rect x="290" y="250" width="220" height="36" rx="8" fill="#d97706"/>
-  <rect x="290" y="272" width="220" height="14" fill="#d97706"/>
-  <text x="400" y="272" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white">データエンジニアリング</text>
-  <rect x="306" y="296" width="120" height="7" rx="3" fill="rgba(255,255,255,0.35)"/>
-  <rect x="306" y="309" width="150" height="7" rx="3" fill="rgba(255,255,255,0.25)"/>
-  <rect x="306" y="322" width="80" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <!-- Item 3 -->
+  <rect x="60" y="216" width="680" height="52" rx="6" fill="rgba(124,58,237,0.08)" stroke="rgba(124,58,237,0.2)" stroke-width="1"/>
+  <rect x="74"  y="226" width="68" height="32" rx="4" fill="rgba(124,58,237,0.5)"/>
+  <rect x="74"  y="226" width="68" height="10" rx="4" fill="rgba(124,58,237,0.8)"/>
+  <rect x="79"  y="240" width="38" height="3"  rx="1" fill="rgba(255,255,255,0.5)"/>
+  <rect x="79"  y="246" width="48" height="2"  rx="1" fill="rgba(255,255,255,0.3)"/>
+  <rect x="156" y="230" width="180" height="8"  rx="2" fill="rgba(255,255,255,0.7)"/>
+  <rect x="156" y="244" width="120" height="6"  rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="594" y="233" width="80" height="18" rx="9" fill="rgba(124,58,237,0.35)"/>
+  <rect x="604" y="239" width="60" height="6"  rx="2" fill="rgba(196,181,253,0.7)"/>
+  <text x="710" y="246" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.3)">›</text>
 
-  <!-- Slide card: row 2, col 3 -->
-  <rect x="528" y="250" width="220" height="118" rx="8" fill="#065f46"/>
-  <rect x="528" y="250" width="220" height="36" rx="8" fill="#059669"/>
-  <rect x="528" y="272" width="220" height="14" fill="#059669"/>
-  <text x="638" y="272" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="white">MLOps・実験管理</text>
-  <rect x="544" y="296" width="140" height="7" rx="3" fill="rgba(255,255,255,0.35)"/>
-  <rect x="544" y="309" width="100" height="7" rx="3" fill="rgba(255,255,255,0.25)"/>
-  <rect x="544" y="322" width="120" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <!-- Item 4 -->
+  <rect x="60" y="278" width="680" height="52" rx="6" fill="rgba(5,150,105,0.08)" stroke="rgba(5,150,105,0.2)" stroke-width="1"/>
+  <rect x="74"  y="288" width="68" height="32" rx="4" fill="rgba(5,150,105,0.5)"/>
+  <rect x="74"  y="288" width="68" height="10" rx="4" fill="rgba(5,150,105,0.8)"/>
+  <rect x="79"  y="302" width="42" height="3"  rx="1" fill="rgba(255,255,255,0.5)"/>
+  <rect x="79"  y="308" width="54" height="2"  rx="1" fill="rgba(255,255,255,0.3)"/>
+  <rect x="156" y="292" width="220" height="8"  rx="2" fill="rgba(255,255,255,0.7)"/>
+  <rect x="156" y="306" width="150" height="6"  rx="2" fill="rgba(255,255,255,0.3)"/>
+  <rect x="594" y="295" width="80" height="18" rx="9" fill="rgba(5,150,105,0.35)"/>
+  <rect x="604" y="301" width="60" height="6"  rx="2" fill="rgba(110,231,183,0.7)"/>
+  <text x="710" y="308" font-family="system-ui,sans-serif" font-size="16" fill="rgba(255,255,255,0.3)">›</text>
 
-  <!-- "more" indicator -->
-  <text x="400" y="392" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">… 全資料を connpass で確認 →</text>
+  <!-- Bottom "more" row -->
+  <rect x="60" y="340" width="680" height="36" rx="6" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="400" y="364" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="rgba(255,255,255,0.25)">全資料を見る ···</text>
 </svg>

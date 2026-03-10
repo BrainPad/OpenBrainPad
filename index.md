@@ -352,7 +352,7 @@ title: OpenBrainPad
       <span class="obp-section-icon">🤝</span>
       <div class="obp-section-meta">
         <h2 class="obp-section-title">ミートアップ</h2>
-        <p class="obp-section-desc">社内外のデータ関係者向けの勉強会＆交流会「白金鉱業 Meetup」を開催しています。</p>
+        <p class="obp-section-desc">社内外のデータサイエンティストたち向けの勉強会＆交流会「白金鉱業 Meetup」を開催しています。</p>
         <div class="obp-podcast-stats">
           <div class="obp-podcast-stat"><span class="obp-podcast-stat-num"><ConnpassCount /></span><span class="obp-podcast-stat-label">回開催</span></div>
           <div class="obp-podcast-stat"><span class="obp-podcast-stat-num">2018</span><span class="obp-podcast-stat-label">年〜</span></div>
@@ -364,7 +364,7 @@ title: OpenBrainPad
         <h3>白金鉱業 Meetup</h3>
         <p>
           3〜4名×20分の登壇ゲストでお届けするデータサイエンス系のミートアップイベントです。<br>
-          社内外のデータ関係者が集まり、最新の知見を共有・交流する場となっています。
+          社内外のデータサイエンティストたちが集まり、最新の知見を共有・交流する場となっています。
         </p>
       </div>
       <div class="obp-meetup-format">
@@ -372,7 +372,7 @@ title: OpenBrainPad
           <strong>登壇形式</strong><br>
           3〜4名 × 20分<br><br>
           <strong>対象</strong><br>
-          データ関係者全般
+          データサイエンティストたち
         </p>
       </div>
     </div>
@@ -442,10 +442,43 @@ title: OpenBrainPad
 </div>
 
 <div class="obp-recruit-banner">
+  <svg class="obp-recruit-bg-svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <circle cx="80"  cy="60"  r="5" fill="rgba(165,180,252,0.18)"/>
+    <circle cx="140" cy="100" r="8" fill="rgba(129,140,248,0.14)"/>
+    <circle cx="60"  cy="160" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="200" cy="80"  r="6" fill="rgba(99,102,241,0.2)"/>
+    <circle cx="160" cy="200" r="5" fill="rgba(165,180,252,0.15)"/>
+    <circle cx="40"  cy="280" r="7" fill="rgba(129,140,248,0.12)"/>
+    <circle cx="240" cy="300" r="4" fill="rgba(165,180,252,0.18)"/>
+    <circle cx="100" cy="340" r="6" fill="rgba(99,102,241,0.15)"/>
+    <line x1="80"  y1="60"  x2="140" y2="100" stroke="rgba(165,180,252,0.12)" stroke-width="1.5"/>
+    <line x1="140" y1="100" x2="60"  y2="160" stroke="rgba(165,180,252,0.1)"  stroke-width="1.5"/>
+    <line x1="140" y1="100" x2="200" y2="80"  stroke="rgba(165,180,252,0.12)" stroke-width="1.5"/>
+    <line x1="60"  y1="160" x2="160" y2="200" stroke="rgba(165,180,252,0.08)" stroke-width="1.5"/>
+    <line x1="160" y1="200" x2="240" y2="300" stroke="rgba(165,180,252,0.1)"  stroke-width="1.5"/>
+    <g transform="translate(860, 60)" opacity="0.18">
+      <rect x="0"   y="200" width="40" height="100" rx="4" fill="#818cf8"/>
+      <rect x="55"  y="140" width="40" height="160" rx="4" fill="#6366f1"/>
+      <rect x="110" y="80"  width="40" height="220" rx="4" fill="#818cf8"/>
+      <rect x="165" y="120" width="40" height="180" rx="4" fill="#a5b4fc"/>
+      <rect x="220" y="50"  width="40" height="250" rx="4" fill="#6366f1"/>
+      <rect x="275" y="100" width="40" height="200" rx="4" fill="#818cf8"/>
+    </g>
+    <polyline points="880,370 930,320 990,340 1050,270 1110,295 1170,240 1200,260" fill="none" stroke="rgba(165,180,252,0.15)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="880"  cy="370" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="930"  cy="320" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="990"  cy="340" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="1050" cy="270" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="1110" cy="295" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="1170" cy="240" r="4" fill="rgba(165,180,252,0.2)"/>
+    <circle cx="1080" cy="70"  r="5" fill="rgba(165,180,252,0.18)"/>
+    <circle cx="1140" cy="40"  r="4" fill="rgba(129,140,248,0.14)"/>
+    <circle cx="1160" cy="130" r="6" fill="rgba(165,180,252,0.16)"/>
+    <line x1="1080" y1="70"  x2="1140" y2="40"  stroke="rgba(165,180,252,0.1)"  stroke-width="1.5"/>
+    <line x1="1140" y1="40"  x2="1160" y2="130" stroke="rgba(165,180,252,0.1)"  stroke-width="1.5"/>
+    <line x1="1080" y1="70"  x2="1160" y2="130" stroke="rgba(165,180,252,0.08)" stroke-width="1.5"/>
+  </svg>
   <div class="obp-recruit-inner">
-    <div class="obp-recruit-deco obp-recruit-deco-1">✦</div>
-    <div class="obp-recruit-deco obp-recruit-deco-2">◎</div>
-    <div class="obp-recruit-deco obp-recruit-deco-3">✦</div>
     <h2 class="obp-recruit-title">We are hiring!!</h2>
     <a href="https://www.brainpad.co.jp/recruit/" target="_blank" rel="noopener" class="obp-recruit-btn">採用情報を見る →</a>
   </div>

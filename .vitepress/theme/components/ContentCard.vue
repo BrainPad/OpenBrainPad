@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
+import { useData } from 'vitepress'
 import { fetchOgImage } from '../composables/useOgImage'
+
+const { site } = useData()
 
 const props = defineProps<{
   title: string
@@ -142,7 +145,11 @@ onMounted(async () => {
 
   // image prop が指定されていれば OGP フェッチをスキップ
   if (props.image) {
-    ogImage.value = props.image
+    const base = site.value.base ?? '/'
+    // ルート相対パス ("/foo.svg") に base が付いていない場合は補完する
+    ogImage.value = props.image.startsWith('/') && !props.image.startsWith(base)
+      ? base + props.image.slice(1)
+      : props.image
     loading.value = false
     return
   }
